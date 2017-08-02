@@ -1,0 +1,47 @@
+
+body {
+	background-color: #6080E0
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 20px;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+tr {
+	border-bottom: solid 1px #CCCCFF;
+}
+
+div.content {
+	max-width: 1200px;
+	margin: auto;
+	background-color: white;
+	min-height: 90%;
+	padding: 10px;
+}
+
+iframe {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+img {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
