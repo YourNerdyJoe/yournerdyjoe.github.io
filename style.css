@@ -36,8 +36,11 @@ div.content {
 
 iframe {
 	float: left;
+	margin: 0 auto;
+	display: block;
 	padding-left: 10px;
 	padding-right: 10px;
+	max-width: 100%;
 }
 
 img {
