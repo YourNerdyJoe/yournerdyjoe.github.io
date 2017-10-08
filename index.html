@@ -12,131 +12,119 @@
 				Welcome to my humble programming portfolio. 
 			</p>
 			<h1>Past Projects</h1>
-			<table>
-				<tr>
-					<td>
-						<h2>3DS Particle Demo</h2>
-						<iframe width="420" height="244" src="https://www.youtube.com/embed/7PkJOJQL7Bg" frameborder="0" allowfullscreen></iframe>
-						<p>
-							A simple particle demo for the Nintendo 3DS written in C.
-							I wrote it to test out multithreading on the 3DS.
-							Includes controls to edit the particles size, color, position, etc.
-							It was written to target *.3ds homebrew to use with a Gateway 3DS cartridge back in the day.
-							So the code will need some tweaking to compile with the latest version of ctrulib and homebrew launcher.
-							<br/><br/>
-							<a href="http://yournerdyjoe.blogspot.com/2014/08/3ds-particle-demo.html">Full write-up</a>
-							<br/>
-							<a href="https://github.com/YourNerdyJoe/particles-3DS">GitHub</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>3DS Chip8-CTRU</h2>
-						<img src="img/chip8-ctru.jpg"/>
-						<p>
-							A port of a Chip8 emulator for the Nintendo 3DS written in C.
-							Includes multi-rom support.
-							Also played around with adding stereoscopic 3D effects only using software rendering.
-							This too was written for Gateway *.3ds files so the code needs to updated to work with the latest version of the libraries.
-							<br/><br/>
-							<a href="http://yournerdyjoe.blogspot.com/2014/07/chip8-ctru.html">Full write-up</a>
-							<br/>
-							<a href="https://github.com/YourNerdyJoe/Chip8-CTRU">GitHub</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>OpenRegion 3DS</h2>
-						<img src="img/openregion.jpg" style="max-width: 420"/>
-						<p>
-							OpenRegion is an ROP payload that takes advantage of a bug in certain versions of the 3DS System Setting.
-							It allows users to bypass region lock and run game cartridges from other regions on their 3DS.
-							Payloads are available for 3DS firmware version 4.X and 6.X.
-							<br/><br/>
-							<br/>
-							<a href="http://gbatemp.net/threads/release-openregion-bypass-region-lock-without-internet-on-4-x.379614/">GBAtemp Thread</a>
-							<br/>
-							<a href="https://github.com/YourNerdyJoe/openregion">GitHub</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>Neon GBA Lighting</h2>
-						<iframe width="420" height="244" src="https://www.youtube.com/embed/no5_DkIyxNE" frameborder="0" allowfullscreen></iframe>
-						<p>
-							Neon GBA is a per-tile lighting engine for the Gameboy Advance. 
-							It uses precomputed look-up tables to grab the correct color tile 
-							based on how "brightly" lit the tile is by different colored light sources.
-							<br/><br/>
-							<a href="https://github.com/YourNerdyJoe/neon">GitHub</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>Mergepal</h2>
-						<img src="img/mergepal.jpg" style="max-width: 420"/>
-						<p>
-							A command line utility written in C++.
-							It's used to merge the palettes of multiple 256 color BMP files.
-							It outputs the merged palette and the raw data for each BMP using the new palette.
-							I made this because I needed to create a common sprite palette while keeping each individual sprite's data in separate files for GBA/NDS development.
-							<br/><br/>
-							<a href="https://github.com/YourNerdyJoe/mergepal">GitHub</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>Transconsciousness - MiniLD #55</h2>
-						<iframe width="420" height="244" src="https://www.youtube.com/embed/VLi7HU0GfNg" frameborder="0" allowfullscreen></iframe>
-						<p>
-							This a game I made back in highschool for MiniLD #55, a game development challenge. 
-							The theme was preparation. 
-							So the player "prepares" what moves the character will make at the beginning of the level.
-							After each action is planned, markers are displayed to show where enemies will be after that action occurs 
-							(based on how long the actions takes and how fast the enemy moves).
+			<div>
+				<h2>3DS Particle Demo</h2>
+				<div id="outer"><div id="inner">
+				<iframe src="https://www.youtube.com/embed/7PkJOJQL7Bg" frameborder="0" allowfullscreen></iframe>
+				</div></div>
+				<p>
+					A simple particle demo for the Nintendo 3DS written in C.
+					I wrote it to test out multithreading on the 3DS.
+					Includes controls to edit the particles size, color, position, etc.
+					It was written to target *.3ds homebrew to use with a Gateway 3DS cartridge back in the day.
+					So the code will need some tweaking to compile with the latest version of ctrulib and homebrew launcher.
+					<br/><br/>
+					<a href="http://yournerdyjoe.blogspot.com/2014/08/3ds-particle-demo.html">Full write-up</a>
+					<br/>
+					<a href="https://github.com/YourNerdyJoe/particles-3DS">GitHub</a>
+				</p>
+			</div>
+			<div>
+				<h2>3DS Chip8-CTRU</h2>
+				<img src="img/chip8-ctru.jpg"/>
+				<p>
+					A port of a Chip8 emulator for the Nintendo 3DS written in C.
+					Includes multi-rom support.
+					Also played around with adding stereoscopic 3D effects only using software rendering.
+					This too was written for Gateway *.3ds files so the code needs to updated to work with the latest version of the libraries.
+					<br/><br/>
+					<a href="http://yournerdyjoe.blogspot.com/2014/07/chip8-ctru.html">Full write-up</a>
+					<br/>
+					<a href="https://github.com/YourNerdyJoe/Chip8-CTRU">GitHub</a>
+				</p>
+			</div>
+			<div>
+				<h2>OpenRegion 3DS</h2>
+				<img src="img/openregion.jpg" style="max-width: 420"/>
+				<p>
+					OpenRegion is an ROP payload that takes advantage of a bug in certain versions of the 3DS System Setting.
+					It allows users to bypass region lock and run game cartridges from other regions on their 3DS.
+					Payloads are available for 3DS firmware version 4.X and 6.X.
+					<br/><br/>
+					<br/>
+					<a href="http://gbatemp.net/threads/release-openregion-bypass-region-lock-without-internet-on-4-x.379614/">GBAtemp Thread</a>
+					<br/>
+					<a href="https://github.com/YourNerdyJoe/openregion">GitHub</a>
+				</p>
+			</div>
+			<div>
+				<h2>Neon GBA Lighting</h2>
+				<div id="outer"><div id=inner>
+				<iframe width="420" height="244" src="https://www.youtube.com/embed/no5_DkIyxNE" frameborder="0" allowfullscreen></iframe>
+				</div></div>
+				<p>
+					Neon GBA is a per-tile lighting engine for the Gameboy Advance. 
+					It uses precomputed look-up tables to grab the correct color tile 
+					based on how "brightly" lit the tile is by different colored light sources.
+					<br/><br/>
+					<a href="https://github.com/YourNerdyJoe/neon">GitHub</a>
+				</p>
+			</div>
+			<div>
+				<h2>Mergepal</h2>
+				<img src="img/mergepal.jpg"/>
+				<p>
+					A command line utility written in C++.
+					It's used to merge the palettes of multiple 256 color BMP files.
+					It outputs the merged palette and the raw data for each BMP using the new palette.
+					I made this because I needed to create a common sprite palette while keeping each individual sprite's data in separate files for GBA/NDS development.
+					<br/><br/>
+					<a href="https://github.com/YourNerdyJoe/mergepal">GitHub</a>
+				</p>
+			</div>
+			<div>
+				<h2>Transconsciousness - MiniLD #55</h2>
+				<div id="outer"><div id="inner">
+				<iframe width="420" height="244" src="https://www.youtube.com/embed/VLi7HU0GfNg" frameborder="0" allowfullscreen></iframe>
+				</div></div>
+				<p>
+					This a game I made back in highschool for MiniLD #55, a game development challenge. 
+					The theme was preparation. 
+					So the player "prepares" what moves the character will make at the beginning of the level.
+					After each action is planned, markers are displayed to show where enemies will be after that action occurs 
+					(based on how long the actions takes and how fast the enemy moves).
 
-							<br/><br/>
-							<a href="https://github.com/YourNerdyJoe/transconsciousness">GitHub</a>
-							<br/>
-							<a href="https://github.com/YourNerdyJoe/transconsciousness/blob/master/pkg/transconsciousness.zip?raw=true">Download for Windows</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>Tetris Puzzle Challenge</h2>
-						<img src="img/tetrispuzzle.jpg" style="max-width: 420"/>
-						<p>
-							A simple Tetris clone made with Lua and the Love2D game engine. 
-							Also includes puzzle levels where the blocks that fall are pre-determined
-							and the player must use them to clear the entire level.
-							<br/><br/>
-							<a href="https://github.com/YourNerdyJoe/tetris">GitHub</a>
-							<br/>
-							<a href="https://drive.google.com/open?id=0B3bU0H5MCxxJZlZ6TUhlSGl5c1U">Download for Windows</a>
-						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<h2>Hololens Development</h2>
-						<img src="img/hololensdemo.jpg" style="max-width: 420"/>
-						<p>
-							I've developed a proprietary Hololens application for a start up 
-							that probably wouldn't appreciate if gave their ideas away on the internet 
-							while they still in the early stages. <br/>
-							To put it in generic terms, it app collected data from each of the user's sessions
-							and stored it in a database.
-							Included floating GUIs that followed the user's gaze, login, gesture and voice commands, and all that fancy stuff.
-						</p>
-					</td>
-				</tr>
-			</table>
+					<br/><br/>
+					<a href="https://github.com/YourNerdyJoe/transconsciousness">GitHub</a>
+					<br/>
+					<a href="https://github.com/YourNerdyJoe/transconsciousness/blob/master/pkg/transconsciousness.zip?raw=true">Download for Windows</a>
+				</p>
+			</div>
+			<div>
+				<h2>Tetris Puzzle Challenge</h2>
+				<img src="img/tetrispuzzle.jpg"/>
+				<p>
+					A simple Tetris clone made with Lua and the Love2D game engine. 
+					Also includes puzzle levels where the blocks that fall are pre-determined
+					and the player must use them to clear the entire level.
+					<br/><br/>
+					<a href="https://github.com/YourNerdyJoe/tetris">GitHub</a>
+					<br/>
+					<a href="https://drive.google.com/open?id=0B3bU0H5MCxxJZlZ6TUhlSGl5c1U">Download for Windows</a>
+				</p>
+			</div>
+			<div>
+				<h2>Hololens Development</h2>
+				<img src="img/hololensdemo.jpg"/>
+				<p>
+					I've developed a proprietary Hololens application for a start up 
+					that probably wouldn't appreciate if gave their ideas away on the internet 
+					while they still in the early stages. <br/>
+					To put it in generic terms, it app collected data from each of the user's sessions
+					and stored it in a database.
+					Included floating GUIs that followed the user's gaze, login, gesture and voice commands, and all that fancy stuff.
+				</p>
+			</div>
 		</div>
 	</body>
 </html>
